@@ -55,19 +55,19 @@
         }
         .paid {
             color: #222222;
-            font-size: 20px;
+            font-size: 17px;
             margin-top: 30px;
         }
 
         .toll {
             color: #2d2d2d;
             font-weight: 600;
-            font-size: 20px;
+            font-size: 19px;
         }
 
         .pay {
-            margin: 20px 0;
-            font-size: 35px;
+         
+            font-size: 31px;
         }
 
         .pay strong {
@@ -78,7 +78,7 @@
             vertical-align: middle;
             position: relative;
             top: 3px;
-            left: -12px;
+           
         }
 
         .icon {
@@ -89,7 +89,10 @@
             width: 100px;
         }
         .order{
-         font-size:19px;
+         font-size:16px;
+        }
+        .time{
+            font-size:14px;
         }
     </style>
 </head>
@@ -103,7 +106,7 @@
                 <p class="toll">Gharaunda Toll Plaza</p>
                 <p class="pay">&#8377; <strong>120</strong>.00 <span><img src="/paytmTick.gif" class="img-fluid" /></span> </p>
                 <p class="order" style="margin-top:30px;">Order ID: 20637660744 8769767</p>
-            <p class="time"><span id="time"></span>, 24 Sep 2018</p>
+            <p class="time"><span id="time"></span>, <span id="date"></span></p>
         </div>
 
         <footer>
@@ -122,8 +125,15 @@
   var strTime = hours + ':' + minutes + ' ' + ampm;
   return strTime;
 }
+        var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+];
+
+var d = new Date();
+        var comp= d.getDate() + " " + monthNames[d.getMonth()] + " " + d.getFullYear();
 var currentTime= formatAMPM(new Date);
         document.getElementById("time").textContent=currentTime;
+         document.getElementById("date").textContent=comp;
         
     </script>
 </body>
