@@ -9,11 +9,11 @@ self.addEventListener("install", function (event) {
                 "/manifest.json",
                 "/index.js",
                 "/team.png",
-                "flower.png",
-                "footer.jpg",
-                "paytm-icon.jpg",
-                "paytm-logo.jpg",
-                "paytmTick.gif"
+                "/flower.png",
+                "/footer.jpg",
+                "/paytm-icon.jpg",
+                "/paytm-logo.jpg",
+                "/paytmTick.gif"
             ])
         })
     )
