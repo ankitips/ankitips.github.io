@@ -99,13 +99,29 @@
                 <p class="paid">Paid Successfully to</p>
                 <p class="toll">Gharaunda Toll Plaza</p>
                 <p class="pay">&#8377; <strong>120</strong>.00 <span><img src="/paytmTick.gif" class="img-fluid" /></span> </p>
-                <p style="margin-top:30px;">Wallet Txn ID: 20637660744</p>
-                <p>05:48 AM, 24 Sep 2018</p>
+                <p style="margin-top:30px;">Order ID: 20637660744 8769767</p>
+            <p><span id="time"></span>, 24 Sep 2018</p>
         </div>
 
         <footer>
             <img src="footer.jpg" class="img-fluid" />
         </footer>
     </div>
+    <script>
+    
+    function formatAMPM(date) {
+  var hours = date.getHours();
+  var minutes = date.getMinutes();
+  var ampm = hours >= 12 ? 'pm' : 'am';
+  hours = hours % 12;
+  hours = hours ? hours : 12; // the hour '0' should be '12'
+  minutes = minutes < 10 ? '0'+minutes : minutes;
+  var strTime = hours + ':' + minutes + ' ' + ampm;
+  return strTime;
+}
+var currentTime= formatAMPM(new Date);
+        document.getElementById("time").text=currentTime;
+        
+    </script>
 </body>
 </html>
