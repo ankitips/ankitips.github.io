@@ -1,0 +1,16 @@
+{
+    "name": "PWA Application",
+    "short_name": "PWA",
+    "short_url": ".",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#eee",
+    "theme_color": "#ddd",
+    "icons": [
+        {
+            "src": "./team.png",
+            "size": "144X144",
+            "type": "image/png"
+        }
+    ]
+}
