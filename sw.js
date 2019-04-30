@@ -8,13 +8,14 @@ self.addEventListener("install", function (event) {
                 "/index.html",
                 "/manifest.json",
                 "/index.js",
-                "/team.png",
                 "/flower.png",
                 "/footer.jpg",
                 "/paytm-icon.jpg",
                 "/paytm-logo.jpg",
                 "/paytmTick.gif"
-            ])
+            ]).then(function(){
+            console.warn("files cached");
+            })
         })
     )
 
