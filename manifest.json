@@ -8,8 +8,23 @@
     "theme_color": "#ddd",
     "icons": [
         {
-            "src": "/team.png",
+            "src": "/paytm-144.png",
             "size": "144X144",
+            "type": "image/png"
+        },
+        {
+            "src": "/paytm-96.png",
+            "size": "96X96",
+            "type": "image/png"
+        },
+        {
+            "src": "/paytm-72.png",
+            "size": "72X72",
+            "type": "image/png"
+        },
+        {
+            "src": "/paytm-48.png",
+            "size": "48X48",
             "type": "image/png"
         }
     ]
