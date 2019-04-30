@@ -6,10 +6,14 @@ self.addEventListener("install", function (event) {
             cache.addAll([
                 "/",
                 "/index.html",
-                "/main.css",
                 "/manifest.json",
                 "/index.js",
-                "/team.png"
+                "/team.png",
+                "flower.png",
+                "footer.jpg",
+                "paytm-icon.jpg",
+                "paytm-logo.jpg",
+                "paytmTick.gif"
             ])
         })
     )
