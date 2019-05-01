@@ -114,13 +114,16 @@
         </footer>
     </div>
     <script>
-         var txt;
-    var name = prompt("Please enter the payee:", "");
+        document.onload(function(){
+          var txt;
+    var name = prompt("Please enter the payee:", "adss");
     var money = prompt("Please enter amount:", "120.00");
 
 
   document.getElementById("name").innerHTML = name;
          document.getElementById("amount").innerHTML = amount;
+        })
+       
     
     function formatAMPM(date) {
   var hours = date.getHours();
