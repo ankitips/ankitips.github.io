@@ -96,7 +96,7 @@
         }
     </style>
 </head>
-<body>
+<body onload="askDetails()">
     <div class="wrapper">
         <header></header>
         <div class="icon"></div>
@@ -114,15 +114,15 @@
         </footer>
     </div>
     <script>
-        document.onload(function(){
+        function askDetails(){
           var txt;
     var name = prompt("Please enter the payee:", "adss");
     var money = prompt("Please enter amount:", "120.00");
 
 
-  document.getElementById("name").innerHTML = name;
+           document.getElementById("name").innerHTML = name;
          document.getElementById("amount").innerHTML = amount;
-        })
+        }
        
     
     function formatAMPM(date) {
