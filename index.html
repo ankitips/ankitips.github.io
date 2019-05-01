@@ -94,6 +94,10 @@
         .time{
             font-size:14px;
         }
+        .amount{
+          top: -5px;
+           left: 7px;
+        }
     </style>
 </head>
 <body onload="askDetails()">
@@ -104,7 +108,7 @@
         <div class="text-center">
                 <p class="paid">Paid Successfully to</p>
                 <p class="toll" id="name">Gharaunda Toll Plaza</p>
-            <p class="pay">&#8377;<span id="amount"> 120.00</span> <span><img src="/paytmTick.gif" class="img-fluid" /></span> </p>
+            <p class="pay">&#8377;<strong><span class="amount" id="amount"> 120.00</span></strong> <span><img src="/paytmTick.gif" class="img-fluid" /></span> </p>
                 <p class="order" style="margin-top:30px;">Order ID: 20637660744 8769767</p>
             <p class="time"><span id="time"></span>, <span id="date"></span></p>
         </div>
@@ -116,7 +120,7 @@
     <script>
         function askDetails(){
           var txt;
-    var name = prompt("Please enter the payee:", "adss");
+    var name = prompt("Please enter the payee:", "Enter Name");
     var money = prompt("Please enter amount:", "120.00");
 
 
