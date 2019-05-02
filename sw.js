@@ -12,7 +12,11 @@ self.addEventListener("install", function (event) {
                 "/footer.jpg",
                 "/paytm-icon.jpg",
                 "/paytm-logo.jpg",
-                "/paytmTick.gif"
+                "/paytmTick.gif",
+                "/paytm-144.png",
+                "/paytm-48.png",
+                "/paytm-72.png",
+                "/paytm-96.png"
             ]).then(function(){
             console.warn("files cached");
             })
