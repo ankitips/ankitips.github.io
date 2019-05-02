@@ -41,7 +41,7 @@
             overflow: hidden;
             background: url('flower.png') no-repeat top right;
             background-size: 30%;
-            padding: 0 15px;
+           
         }
 
         .img-fluid {
@@ -94,12 +94,29 @@
         }
 
         .icon {
-            background: url(/paytm-icon.jpg) no-repeat top right;
-            background-size: 100%;
-            margin: 30px auto;
-            height: 100px;
-            width: 100px;
+            background: url(/paytm-icon.jpg) no-repeat;
+    background-size: 80%;
+   float:left;
+    height: 85px;
+    width: 80px;
         }
+	    .no-box{
+	      float:right;
+		    border: 1px solid #eee;
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    border-radius: 31px;
+    position: absolute;
+    text-align: center;
+	    }
+	    .icon_box{
+	       margin: 30px auto;
+	    }
+	    .clear{
+	     clear:both;
+	    }
+	  
         .order{
          font-size:16px;
         }
@@ -115,7 +132,12 @@
 <body onload="askDetails()">
     <div class="wrapper">
         <header></header>
-        <div class="icon"></div>
+	    <div class="icon_box">
+	     <div class="icon"></div>
+		    <div class="no-box"><span id="no"></span></div>
+		    <div class="clear"></div>
+	    </div>
+       
 
         <div class="text-center">
                 <p class="paid">Paid Successfully to</p>
