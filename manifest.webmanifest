@@ -11,5 +11,5 @@
   ],
   "name": "Awesome fox pictures",
   "short_name": "Screen",
-  "start_url": "index.html"
+  "start_url": "/index.html?utm=homescreen"
 }
