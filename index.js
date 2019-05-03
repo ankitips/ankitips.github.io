@@ -2,11 +2,12 @@ console.error("wow ");
 if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("/sw.js");
 }
-var deferredPrompt;
-var addBtn = document.querySelector('.add-button');
+let deferredPrompt;
+const addBtn = document.querySelector('.add-button');
 addBtn.style.display = 'none';
 
 window.addEventListener('beforeinstallprompt', (e) => {
+    console.error("beforeinstallprompt",e);
   // Prevent Chrome 67 and earlier from automatically showing the prompt
   e.preventDefault();
   // Stash the event so it can be triggered later.
