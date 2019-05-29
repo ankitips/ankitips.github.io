@@ -1,0 +1,55 @@
+{
+
+  "content": {
+
+    "boutiquePickup": true,
+
+    "viewType": "singleCard",
+
+    "boutiqueDetailList": [
+
+      {
+
+        "bcontact": "1-800-227-8437",
+
+        "formattedDate": "Tuesday, April 16, 2019",
+
+        "btqimgsrc": "/content/dam/cartier_dam/Mansion/mansion-home/Mansion%20exterior%20nyt-main.jpg",
+
+        "baddress": "653 Fifth Avenue\u003cbr\u003eNew York, NY 10022-5902",
+
+        "boutiqueName": "NYC 5th Ave. Mansion",
+
+        "deliverydate": "1555372800000",
+
+        "boutiqueId": "3037",
+
+        "boutiqueCity": "New York"
+
+      },
+
+      {
+
+        "bcontact": "1-800-227-8437",
+
+        "formattedDate": "Tuesday, April 16, 2019",
+
+        "btqimgsrc": "/content/dam/cartier_dam/Communication%20assets/boutiques/north-america/BTQ3203_img1.png",
+
+        "baddress": "180 El Camino Real\u003cbr\u003ePalo Alto, CA 94304",
+
+        "boutiqueName": "Palo Alto",
+
+        "deliverydate": "1555372800000",
+
+        "boutiqueId": "3203",
+
+        "boutiqueCity": "Palo Alto"
+
+      }
+
+    ]
+
+  }
+
+}
